@@ -1,0 +1,34 @@
+[
+  {
+    "name": "William Amaral",
+    "document": "13687541630",
+    "email": "williamamaral521@gmail.com",
+    "pets": [
+      {
+        "name": "Fênix",
+        "gender": "Macho",
+        "kind": "Gato",
+        "brand": "Angorá"
+      }
+    ],
+    "billingAdress": [
+      {
+        "zipCode": "39765000",
+        "street": "Córrego Pedreiras",
+        "number": "S/N",
+        "neighborhood": "Zona Rural",
+        "state": "Minas Gerais",
+        "country": "Brasil"
+      }
+    ],
+    "creditCard": [
+      {
+        "holder": "WILLIAM A COSTA",
+        "number": "4804111100014",
+        "expiration": "0227"
+      }
+    ],
+    "password": "123",
+    "active": true
+  }
+]
