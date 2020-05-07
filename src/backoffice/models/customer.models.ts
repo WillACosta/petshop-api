@@ -1,6 +1,7 @@
 import { Pet } from './pet.model';
 import { Adress } from './adress.model';
 import { CreditCard } from './credit-car.model';
+import { User } from './user.model';
 
 export class Customer {
   /**
@@ -15,7 +16,6 @@ export class Customer {
     public billingAdress: Adress,
     public shippingAdress: Adress,
     public creditCart: CreditCard,
-    public password: string,
-    public active: boolean,
+    public user: User,
   ) {}
 }
