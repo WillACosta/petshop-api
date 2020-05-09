@@ -1,5 +1,3 @@
-import { Contract } from './../backoffice/contracts/contract';
-
 import {
   Injectable,
   NestInterceptor,
@@ -9,8 +7,8 @@ import {
   CallHandler,
 } from '@nestjs/common';
 
-import { Result } from 'src/backoffice/models/result.model';
 import { Observable } from 'rxjs';
+import { Contract } from 'src/modules/backoffice/contracts/contract';
 
 @Injectable()
 export class ValidatorInterceptor implements NestInterceptor {
