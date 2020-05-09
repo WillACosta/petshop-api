@@ -24,9 +24,7 @@ export const CustomerSchema = new mongoose.Schema({
   },
   pets: [
     {
-      id: {
-        type: String,
-      },
+
       name: {
         type: String,
       },
